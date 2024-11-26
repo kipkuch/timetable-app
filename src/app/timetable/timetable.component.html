@@ -1,10 +1,17 @@
-<p>timetable works!</p>
-<mat-grid-list cols="7" rowHeight="2:1">
-    <mat-grid-tile>Monday</mat-grid-tile>
-    <mat-grid-tile>Tuesday</mat-grid-tile>
-    <mat-grid-tile>Wednesday</mat-grid-tile>
-    <mat-grid-tile>Thursday</mat-grid-tile>
-    <mat-grid-tile>Friday</mat-grid-tile>
-    <mat-grid-tile>Saturday</mat-grid-tile>
-    <mat-grid-tile>Sunday</mat-grid-tile>
+<mat-grid-list cols="{{timetable.length}}" ratio="2:1" class="showBorders">
+
+    <!-- Row headings -->
+    @for(entry of timetable; track entry.day) {
+        <mat-grid-tile class="showBorders">{{entry.day}}</mat-grid-tile>
+    }
+
+    <!-- Rows -->
+    @for(row of rows; track $index) {
+        @for(activity of row; track $index) {
+            <mat-grid-tile class="showBorders">{{activity.start}} - {{activity.description}}</mat-grid-tile>
+        }
+    }
+
+
+
 </mat-grid-list>

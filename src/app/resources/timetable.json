@@ -1,0 +1,97 @@
+[
+    {
+        "day":"Monday",
+        "activities": [
+            {
+                "description": "Wake up",
+                "start": "07:20",
+                "duration": 10
+            },
+            {
+                "description": "Exercise",
+                "start": "07:30",
+                "duration": 60
+            },
+            {
+                "description": "Shower",
+                "start": "08:30",
+                "duration": 30
+            }
+        ]
+    },
+    {
+        "day":"Tuesday",
+        "activities": [
+            {
+                "description": "Wake up",
+                "start": "07:20",
+                "duration": 10
+            },
+            {
+                "description": "Exercise",
+                "start": "07:30",
+                "duration": 60
+            },
+            {
+                "description": "Shower",
+                "start": "08:30",
+                "duration": 30
+            }
+        ]
+    },
+    {
+        "day":"Wednesday",
+        "activities": [
+            {
+                "description": "Wake up",
+                "start": "07:20",
+                "duration": 10
+            },
+            {
+                "description": "Exercise",
+                "start": "07:30",
+                "duration": 60
+            },
+            {
+                "description": "Shower",
+                "start": "08:30",
+                "duration": 30
+            }
+        ]
+    },
+    {
+        "day":"Thursday",
+        "activities": [
+            {
+                "description": "Wake up",
+                "start": "07:20",
+                "duration": 10
+            },
+            {
+                "description": "Exercise",
+                "start": "07:30",
+                "duration": 60
+            },
+            {
+                "description": "Shower",
+                "start": "08:30",
+                "duration": 30
+            }
+        ]
+    },
+    {
+        "day":"Friday",
+        "activities": [
+            {
+                "description": "Wake up",
+                "start": "07:20",
+                "duration": 10
+            },
+            {
+                "description": "Shower",
+                "start": "08:30",
+                "duration": 30
+            }
+        ]
+    }
+]
